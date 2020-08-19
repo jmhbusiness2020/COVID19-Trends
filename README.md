@@ -1,8 +1,7 @@
----
-title: "Investigating COVID-19 Virus Trends (R Fundamentals)"
-output: html_notebook
----
-# Introduction
+
+# Investigating COVID-19 Virus Trends (R Fundamentals)
+
+## Introduction
 
 COVID-19 is one of the greatest viruses to exist in the 21st century, everyday people battle against it to mitigate its damage. Although data is being compiled every minute of the day, these data sets are largely incomplete given that some cases will never be reported. The current goal is to test as many people as possible so that we can allocated scarce resources to patients who need it the most. Where we currently fall short is not focusing on creating a comprehensive data set for epidemiolgists to study. In anycase, its entirely possible for countries who are testing to have a larger infected population than are being reported. For instance country's that provide minimal testing can run the risk of not knowing the true spread of the virus. On the other hand, countries that show an increasing number of cases might indicated that testing is catching the true numbers of reported COVID19 cases.
 
@@ -159,6 +158,6 @@ covid_analysis_list <- list(question, answer, data_structure_list)
 covid_analysis_list[[2]]
 ```
 
-#Conclusion
+## Conclusion
 
 The top 3 countries with the highest number of positive cases against the number of total test are United Kingdom, United States, and Turkey. For specifics the ratios are listed above.
